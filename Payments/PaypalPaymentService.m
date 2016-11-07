@@ -19,7 +19,7 @@
 }
 
 -(BOOL)canProcessPayment {
-    if (arc4random_uniform(1)) {
+    if (arc4random_uniform(2)) {
         return YES;
     } else {
         return NO;
